@@ -43,4 +43,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
          name: Tauri
-         path: path/to/artifact/world.txt
+         path: home/runner/work/Fast-Tools-Gui/Fast-Tools-Gui/src-tauri/target/release/bundle/deb/fast-tools_0.0.0_amd64.deb
+         
