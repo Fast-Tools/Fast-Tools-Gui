@@ -38,3 +38,9 @@ jobs:
 
       - uses: JonasKruckenberg/tauri-build@v1
         id: tauri_build
+        
+      - name: Upload
+        uses: actions/upload-artifact@v3
+        with:
+         name: Tauri
+         path: path/to/artifact/world.txt
